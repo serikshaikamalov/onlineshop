@@ -1,0 +1,48 @@
+#banner {
+  width: 100%;
+  position: relative;
+}
+
+#banner img {
+  width: 100%;
+}
+
+#banner .banner__text {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.banner__title {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.banner__desc {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.orange-button {
+  background: #e68314;
+  border-radius: 5px;
+
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 18px;
+  color: #fff;
+  height: 63px;
+  width: 223px;
+}

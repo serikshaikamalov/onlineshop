@@ -1,0 +1,50 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 39px;
+  margin-bottom: 24px;
+}
+
+header .left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 36px;
+}
+
+header select {
+  border: 0;
+}
+
+select#space {
+  margin-right: 40px;
+}
+
+select#category {
+  margin-right: 22px;
+}
+
+.search-input {
+  position: relative;
+}
+
+.search-input > .search-icon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+}
+.search-input > input {
+  width: 473px;
+  padding: 12px 12px 12px 44px;
+  border: 1px solid #dbdbdb;
+  border-radius: 9px;
+}
+
+.profile-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 152px;
+  align-items: center;
+}
