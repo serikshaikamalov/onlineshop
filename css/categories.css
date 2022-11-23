@@ -9,10 +9,10 @@
   background-color: white;
 }
 #categories {
-  display: flex;  
+  display: flex;
   margin: 0 auto;
   width: 600px;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .category {
@@ -28,4 +28,19 @@
 .category-orange {
   background: #e68314;
   border-radius: 12px;
+}
+
+@media screen and (max-width: 620px) {
+  .categories-outer {
+    width: initial;
+    margin: auto;
+    box-shadow: none;
+  }
+  #categories {
+    width: auto;
+  }
+
+  .category{
+    
+  }
 }

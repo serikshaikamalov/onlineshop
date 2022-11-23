@@ -1,0 +1,32 @@
+footer{
+    background-color: #4F553D;
+    color: #fff;
+    padding: 100px 0;
+}
+footer a{
+    color: #B6C197;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+link{
+    color: #B6C197;
+    font-size: 16px;
+}
+
+.footer .left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .services{
+    margin-right: 130px;
+}

@@ -1,0 +1,48 @@
+section.ads {
+  margin-top: 90px;
+  margin-bottom: 140px;
+}
+.ads {
+  background: linear-gradient(91.73deg, #efe5d5 21.18%, #f2f0e0 80.55%);
+}
+.ads__title {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #e68314;
+  margin-bottom: 10px;
+}
+
+.ads p {
+  font-family: "Lufga";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #373636;
+  margin-bottom: 20px;
+}
+
+.ads__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ads__inner .left {
+  padding: 44px 0;
+}
+
+.ads img {
+  width: 100%;
+}
+
+@media screen and (max-width: 620px) {
+  .ads__title {
+    font-size: 12px;
+  }
+
+  .ads p {
+    font-size: 10px;
+  }
+}

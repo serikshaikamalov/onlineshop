@@ -1,0 +1,43 @@
+.top__products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product img {
+  width: 100%;
+}
+
+.product__image {
+  position: relative;
+}
+
+.product__heart {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.top__title {
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #284f49;
+}
+
+.top__text {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #808080;
+
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 620px) {
+  .top__products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

@@ -1,0 +1,36 @@
+.plus {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 59px;
+  margin-bottom: 98px;
+}
+.plus__one {
+  display: flex;
+  align-items: center;
+}
+
+.plus__image {
+  margin-right: 24px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.plus__title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  color: #3a3a3a;
+}
+
+.plus__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #898989;
+}
+
+@media screen and (max-width: 620px) {
+  .plus {
+    display: none;
+  }
+}
